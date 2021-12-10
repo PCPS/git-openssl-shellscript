@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 # Gather command line options
-SKIPTESTS=
+SKIPTESTS="YES"
 BUILDDIR=
 SKIPINSTALL=
 for i in "$@"; do 
